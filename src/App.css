@@ -1,3 +1,4 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css");
 .App {
   text-align: center;
 }
@@ -35,4 +36,86 @@
   to {
     transform: rotate(360deg);
   }
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Rubik, Arial, Helvetica, sans-serif;
+}
+.header {
+  width: 100%;
+  height: 120px;
+}
+
+.header_1 {
+  height: 40px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-family: Rubik, Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+}
+.header_1 a {
+  text-decoration: underline;
+  color: #fff;
+}
+.header_2 {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  margin: 0px 68px;
+  padding: 0px 20px;
+}
+.header_nav {
+  padding: 0px 21px;
+  margin: 0px 20px;
+}
+.header_nav a {
+  text-decoration: none;
+  padding: 30px 15px;
+  color: black;
+}
+.nav_icons a {
+  padding: 13px 10px;
+  color: black;
+  text-decoration: none;
+}
+
+.card2 {
+  background-image: url("../public/assets/caed\ img\ bg2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.card3 {
+  background-image: url("../public/assets/card\ bg\ img\ 3.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.card4 {
+  background-image: url("../public/assets/card\ bg\ img4.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.card5 {
+  background-image: url("../public/assets/card\ bg\ img5.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.card6 {
+  background-image: url("../public/assets/card\ bg\ \ img6.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.card {
+  width: 384px;
+  height: 334px;
+  margin: 2px 3px;
+}
+.c-brand {
+  width: 110px;
+  height: 110px;
 }
