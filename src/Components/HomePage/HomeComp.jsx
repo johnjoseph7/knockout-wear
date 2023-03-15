@@ -3,6 +3,9 @@ import Header from "../Common/Header";
 import BrandSlider from "./BrandSlider";
 import FirstSlider from "./FirstSlider";
 import ProductCards from "./ProductCards";
+import ProductSlider from "./ProductSlider";
+import SmallBanner from "./SmallBanner";
+import BestSelling from "./BestSelling";
 
 function HomeComp() {
   return (
@@ -11,6 +14,9 @@ function HomeComp() {
       <FirstSlider></FirstSlider>
       <ProductCards></ProductCards>
       <BrandSlider></BrandSlider>
+      <ProductSlider></ProductSlider>
+      <SmallBanner></SmallBanner>
+      <BestSelling></BestSelling>
     </div>
   );
 }

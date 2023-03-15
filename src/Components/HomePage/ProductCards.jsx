@@ -4,14 +4,12 @@ function ProductCards() {
   return (
     <div className="product-card">
       <div className="product-cards mt-3">
-        <div className="container">
+         <div className="container">
           <div className="row">
             <div className="col-4 ">
-              <a href="#">
-                <div className="card card1">
-                  <img src="./assets/card 1 img.gif" alt="" />
+            <div className="card card1">
+                <img src="./assets/card 1 img.gif" alt="" />
                 </div>
-              </a>
             </div>
             <div className="col-4">
               <a href="#">
@@ -21,6 +19,7 @@ function ProductCards() {
               </a>
             </div>
             <div className="col-4 ">
+              
               <a href="#">
                 <div className="card card3">
                   <img src="./assets/card img 3.webp" alt="" />
@@ -48,11 +47,25 @@ function ProductCards() {
                 </div>
               </a>
             </div>
-          </div>
+          </div> 
         </div>
+        {/* <div className="container">
+          <div className="img-container">
+            <div className="img-card">
+              <div className="img-inner"></div>
+            </div>
+            <div className="img-card">
+              <div className="img-inner"></div>
+            </div>
+            <div className="img-card">
+              <div className="img-inner"></div>
+            </div>
+       
+          </div>
+        </div> */}
       </div>
     </div>
   );
 }
-
 export default ProductCards;
+ 
