@@ -129,3 +129,65 @@
   margin :0px 10px;
   box-shadow: 0px 2px 2px 0px;
 }
+.brand-card{
+  margin: 0 162px;
+  padding:0 20px
+}
+.brand-cards{
+  width: 393px;
+  height:237px;
+  padding:3px;
+  margin: 2px;
+}
+.bc1{
+  background-image: url("../public/assets/bottom\ bg\ card1.webp");
+  background-position: center;
+  background-size: cover;
+}
+.bc2{
+  background-image: url("../public/assets/bottom\ bg\ card2.webp");
+  background-position: center;
+  background-size: cover;
+}
+
+.bc3{
+  background-image: url("../public/assets/bottom\ bg\ card3.webp");
+  background-position: center;
+  background-size: cover;
+}
+.bc4{
+  background-image: url("../public/assets/bottom\ bg\ card4.webp");
+  background-position: center;
+  background-size: cover;
+}
+.bc5{
+  background-image: url("../public/assets/bottom\ bg\ card5.webp");
+  background-position: center;
+  background-size: cover;
+}
+.bc6{
+  background-image: url("../public/assets/bottom\ bg\ card6.webp");
+  background-position: center;
+  background-size: cover;
+}
+.bc7{
+  background-image: url("../public/assets/bottom\ bg\ card7.webp");
+  background-position: center;
+  background-size: cover;
+}
+.bc8{
+  background-image: url("../public/assets/bottom\ bg\ card8.webp");
+  background-position: center;
+  background-size: cover;
+}
+.bc9{
+  background-image: url("../public/assets/bottom\ bg\ card9.webp");
+  background-position: center;
+  background-size: cover;
+}
+ul li{
+  list-style-type: none;
+}
+ul li a{
+  text-decoration: none;
+}
